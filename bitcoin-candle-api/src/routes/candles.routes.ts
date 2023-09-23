@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express';
-import { CandleController } from '../../src/controllers/CandelController';
+import { CandleController } from '../controllers/CandelController';
 
 export const candleRouter = Router();
 const candleController = new CandleController();

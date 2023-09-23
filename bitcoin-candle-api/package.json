@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --exec ts-node src/server.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "pm2": "pm2 start pm2.json"
   },
   "dependencies": {
     "amqplib": "^0.10.3",
